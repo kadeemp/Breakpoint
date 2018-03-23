@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F4832BE9205E42C5003FA12D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4832BE8205E42C5003FA12D /* AppDelegate.swift */; };
-		F4832BEB205E42C5003FA12D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4832BEA205E42C5003FA12D /* FirstViewController.swift */; };
-		F4832BED205E42C5003FA12D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4832BEC205E42C5003FA12D /* SecondViewController.swift */; };
 		F4832BF0205E42C5003FA12D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4832BEE205E42C5003FA12D /* Main.storyboard */; };
 		F4832BF2205E42C5003FA12D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4832BF1205E42C5003FA12D /* Assets.xcassets */; };
 		F4832BF5205E42C5003FA12D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4832BF3205E42C5003FA12D /* LaunchScreen.storyboard */; };
@@ -18,8 +16,6 @@
 /* Begin PBXFileReference section */
 		F4832BE5205E42C5003FA12D /* Breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4832BE8205E42C5003FA12D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4832BEA205E42C5003FA12D /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F4832BEC205E42C5003FA12D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F4832BEF205E42C5003FA12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4832BF1205E42C5003FA12D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4832BF4205E42C5003FA12D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +52,53 @@
 		F4832BE7205E42C5003FA12D /* Breakpoint */ = {
 			isa = PBXGroup;
 			children = (
+				F4832C00205E45B5003FA12D /* Services */,
+				F4832BFF205E4586003FA12D /* Extensions */,
+				F4832BFE205E456F003FA12D /* Model */,
+				F4832BFD205E4567003FA12D /* View */,
+				F4832BFC205E4552003FA12D /* Controller */,
 				F4832BE8205E42C5003FA12D /* AppDelegate.swift */,
-				F4832BEA205E42C5003FA12D /* FirstViewController.swift */,
-				F4832BEC205E42C5003FA12D /* SecondViewController.swift */,
 				F4832BEE205E42C5003FA12D /* Main.storyboard */,
 				F4832BF1205E42C5003FA12D /* Assets.xcassets */,
 				F4832BF3205E42C5003FA12D /* LaunchScreen.storyboard */,
 				F4832BF6205E42C5003FA12D /* Info.plist */,
 			);
 			path = Breakpoint;
+			sourceTree = "<group>";
+		};
+		F4832BFC205E4552003FA12D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F4832BFD205E4567003FA12D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F4832BFE205E456F003FA12D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F4832BFF205E4586003FA12D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F4832C00205E45B5003FA12D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4832BED205E42C5003FA12D /* SecondViewController.swift in Sources */,
 				F4832BE9205E42C5003FA12D /* AppDelegate.swift in Sources */,
-				F4832BEB205E42C5003FA12D /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
