@@ -103,12 +103,16 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
-                                            <outlet property="contentLbl" destination="DlO-wu-SJv" id="pxB-f8-dSt"/>
+                                            <outlet property="contentLbl" destination="DlO-wu-SJv" id="36Y-Da-bUJ"/>
                                             <outlet property="emailLbl" destination="wDw-uI-QBJ" id="pJq-fJ-hhO"/>
-                                            <outlet property="profileImage" destination="0CB-PH-nGJ" id="s6r-9L-Z0Q"/>
+                                            <outlet property="profileImg" destination="0CB-PH-nGJ" id="ihz-PZ-9JD"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="ki4-aN-CtJ"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="q2U-FX-D85"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.32642716170000002" green="0.34042957429999998" blue="0.38432189820000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -448,6 +452,7 @@
                     <connections>
                         <outlet property="emailLabel" destination="bxj-kg-baG" id="Ku1-ic-2xf"/>
                         <outlet property="profileImg" destination="uEt-05-DCL" id="iiF-FX-sYy"/>
+                        <outlet property="sendBtn" destination="Xay-8M-t6I" id="aur-Cn-ljZ"/>
                         <outlet property="textView" destination="mYc-Bv-icZ" id="Kcg-4n-eC1"/>
                     </connections>
                 </viewController>
